@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SPA:">
+    <meta property="og:description" content="SPA:">
+    <meta property="twitter:description" content="SPA:">
+    <script src="https://kit.fontawesome.com/ad7474103a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="logo"><img src="images/logo.png" alt="Logotype: lotus." class="logo-img"></div>
-
-    <nav>
-        <div>
-            <button class="book-btn">Book</button>
-        </div>
-
-        <ul class="nav-bar-links">
-            <li><a>Home</a></li>
-            <li><a>About Us</a></li>
-            <li><a>Gallery</a></li>
-            <li><a>Contact</a></li>
-        </ul>
-    </nav>
-
     <header>
-        <img src="images/background-image.png" alt="Candles and rocks at spa." class="background-image">
-        <div class="header-container">
-            <div>
-                <h1>Welcome to the SPA</h1>
-            </div>
-            <div class="main-text">
-                <div class="text-line">
-                    <!-- <img src="images/checkbox.png" alt="Checkbox." class="checkbox"> -->
-                    <p>Lorem ipsum dolor sit adipiscing elit.</p>
-                </div>
-                <div class="text-line">
-                    <!-- <img src="images/checkbox.png" alt="Checkbox." class="checkbox"> -->
-                    <p>Maecenas in en tortor eget, hendrerit orci.</p>
-                </div>
-                <div class="text-line">
-                    <!-- <img src="images/checkbox.png" alt="Checkbox." class="checkbox"> -->
-                    <p>Suspendiss venenatis tempor.</p>
-                </div>
-            </div>
-            <button class="read-more-btn">Read more</button>
-        </div>
-    </header>
+        <div class="logo"><img src="images/logo.png" alt="Logotype: lotus." class="logo-img"></div>
 
+        <nav>
+            <ul class="nav-bar-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
     <main>
-        <section class="container__flexbox top-section">
-            <div class="top-container">  
-                <div class="container top-left">
+        <section class="intro-section">
+            <img src="images/background-image.png" alt="Candles and rocks at spa." class="background-image">
+            <div class="header-container">
+                <div>
+                    <h1>Welcome to the SPA</h1>
+                </div>
+                <div class="main-text">
+                    <div class="text-line">
+                        <img src="images/checkbox.png" alt="Check." class="checkbox">
+                        <p>Lorem ipsum dolor sit adipiscing elit.</p>
+                    </div>
+                    <div class="text-line">
+                        <img src="images/checkbox.png" alt="Check." class="checkbox">
+                        <p>Maecenas in en tortor eget, hendrerit orci.</p>
+                    </div>
+                    <div class="text-line">
+                        <img src="images/checkbox.png" alt="Check." class="checkbox">
+                        <p>Suspendiss venenatis tempor.</p>
+                    </div>
+                </div>
+                <div class="btn-wrap">
+                    <button class="btn">Read more</button>
+                    <button class="btn">Book</button>
+                </div>
+            </div>
+        </section>
+        <section class="top-section">
+            <div class="top-section-container">
+                <div class="container top-section-container-blocks">
                     <div>
                         <img src="images/woman.png" alt="Woman getting spa treatment." class="section-img">
                     </div>
-                </div>  
+                </div>
 
-                <div class="container top-right">
+                <div class="container top-section-container-blocks">
                     <div>
                         <h3>SPA & WELLNESS</h3>
                     </div>
@@ -67,96 +73,71 @@
                     <div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel risus erat....</p>
                     </div>
-                </div>                 
+                </div>
             </div>
 
-            <div class="middle-container">   
-                <div class="container middle-left">
+            <div class="top-section-container">
+                <div class="container top-section-container-blocks">
                     <div>
                         <h3>HYDRATING</h3>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel risus erat....</p>    
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel risus erat....</p>
                     </div>
-                </div> 
+                </div>
 
-                <div class="container middle-right">
+                <div class="container top-section-container-blocks">
                     <div>
                         <img src="images/water.png" alt="Water flowing." class="section-img">
                     </div>
-                </div>   
-                
+                </div>
+
             </div>
 
-            <div class="bottom-container">  
-                <div class="container bottom-left">
+            <div class="top-section-container">
+                <div class="container top-section-container-blocks">
                     <div>
                         <img src="images/candles.png" alt="Candles at spa." class="section-img">
                     </div>
-                </div>  
+                </div>
 
-                <div class="container bottom-right">
+                <div class="container top-section-container-blocks">
                     <div>
                         <h3>ORGANIC</h3>
                     </div>
                     <div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel risus erat....</p>
                     </div>
-                </div>                
-            </div>
-        </section>
-
-        <section class="container__grid bottom-section">
-            <div class="grid__item item1">
-                <div>
-                    <h4>SPA-PACKAGE</h4>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
-                </div>
-                <div>
-                    <button>Read more</button>
-                </div>
-            </div>
-            <div class="grid__item item2">
-                <div>
-                    <h4>ROOM & BREAKFAST</h4>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
-                </div>
-                <div>
-                    <button>Read more</button>
-                </div>
-            </div>
-            <div class="grid__item item3">
-                <div>
-                    <h4>RESTAURANT</h4>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
-                </div>
-                <div>
-                    <button>Read more</button>
-                </div>
-            </div>
-            <div class="grid__item item4">
-                <div>
-                    <h4>CONFERENCE</h4>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
-                </div>
-                <div>
-                    <button>Read more</button>
                 </div>
             </div>
         </section>
-
+        <section class="bottom-section">
+            <div class="card">
+                <h2 class="card__title">SPA-PACKAGE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                <button>Read more</button>
+            </div>
+            <div class="card">
+                <h2 class="card__title">ROOM & BREAKFAST</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                <button>Read more</button>
+            </div>
+            <div class="card">
+                <h2 class="card__title">RESTAURANT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                <button>Read more</button>
+            </div>
+            <div class="card">
+                <h2 class="card__title">CONFERENCE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                <button>Read more</button>
+            </div>
+        </section>
     </main>
 
     <footer>
 
-    </footer>    
+    </footer>
 </body>
+
 </html>
