@@ -62,8 +62,8 @@ a:hover {
     color: #FFFFFF;
     border: none;
     transform: translate(-20%);
-
 }
+
 .header-container {
     min-height: 580px;
     display: flex;
@@ -134,10 +134,6 @@ h1 {
     letter-spacing: 0.1em;
     color: #FFFFFF;
     border: none;
-}
-
-button:hover {
-    background-color: rgba(10, 54, 29, 0.62)
 }
 
 .top-section {
@@ -216,6 +212,7 @@ h4 {
     justify-content: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+    border: none;
 }
 
 .grid__item {
@@ -226,4 +223,8 @@ h4 {
     flex-direction: column;
     justify-content: space-around;
     /* align-items: center; */
+}
+
+button:hover {
+    background-color: rgba(10, 54, 29, 0.62)
 }
