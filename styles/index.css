@@ -1,4 +1,5 @@
 body {
+    max-width: 1440px;
     background: #501C65;
 }
 
@@ -32,12 +33,12 @@ nav {
 }
 
 .nav-bar-links {
-    max-width: 762px;
+    max-width: 39.7%;
     width: 100%;
     min-height: 42px;
     display: flex;
-    justify-content: space-evenly;
-    transform: translate(-8%);
+    justify-content: space-between;
+    transform: translate(-40%);
 }
 
 a:hover {
@@ -47,8 +48,6 @@ a:hover {
 .book-btn {
     width: 208px;
     height: 74px;
-    /* left: 199px;
-    top: 0px; */
     background: rgba(49, 114, 75, 0.62);
     border-radius: 10px;
     font-family: Garamond;
@@ -62,6 +61,8 @@ a:hover {
     letter-spacing: 0.1em;
     color: #FFFFFF;
     border: none;
+    transform: translate(-20%);
+
 }
 .header-container {
     min-height: 580px;
@@ -98,7 +99,6 @@ h1 {
     font-size: 26px;
     line-height: 40px;
     color: #000000;
-    /* border: 1px solid #000000; */
 }
 
 .text-line {
@@ -116,8 +116,6 @@ h1 {
     width: 250px;
     height: 84px;
     margin-left: 2.2%;
-    /* left: 97px;
-    top: 889px; */
     background: rgba(49, 114, 75, 0.62);
     border-radius: 10px;
     font-family: Garamond;
@@ -136,4 +134,43 @@ h1 {
 
 button:hover {
     background-color: rgba(10, 54, 29, 0.62)
+}
+
+.top-section {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-container, .middle-container, .bottom-container {
+    max-width: 63.3%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left, .middle-left, .bottom-left {
+    max-width: 45%;
+    box-sizing: border-box;
+}
+
+.top-right, .middle-right, .bottom-right {
+    max-width: 45%;
+    box-sizing: border-box;
+}
+
+.section-img {
+    max-width: 100%;
+    min-height: 10vh; 
+}
+
+.bottom-section {
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1.5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
