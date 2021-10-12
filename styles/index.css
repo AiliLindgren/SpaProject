@@ -172,21 +172,22 @@ button:hover {
 }
 
 .bottom-section {
-    width: 100%;
-    height: 20vh;
+    width: 90%;
+    height: 30vh;
     font-family: Garamond;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 26px;
     color: #FFFFFF;
+    background: rgba(58, 138, 90, 0.62);
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: 20vh;
     grid-gap: 1.5%;
     margin-left: 5%;
-    margin-right: 5%;
+    /* margin-right: 5%; */
 }
 
 h4 {
@@ -194,11 +195,14 @@ h4 {
     line-height: 28px;
 }
 
+.bottom-section p {
+    width: 60%;
+    /* align-self: center; */
+}
+
 .bottom-section button {
     width: 60%;
-    height: 10vh;
-    left: 148px;
-    top: 2601px;
+    height: 10vh; 
     background: rgba(49, 114, 75, 0.62);
     border-radius: 10px;
     font-family: Garamond;
@@ -212,4 +216,14 @@ h4 {
     justify-content: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+}
+
+.grid__item {
+    height: 30vh;
+    background: #722790;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
 }
