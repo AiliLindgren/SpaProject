@@ -1,7 +1,7 @@
 body {
     width: 100%;
     background: #501C65;
-   /*  background: linear-gradient(180deg, #501C65 0%, #9f64b6 35%, #e1d7e6 100%); */
+    background: linear-gradient(180deg, #501C65 0%, #9f64b6 35%, #e1d7e6 100%);
     font-family: Garamond;
     font-style: normal;
     font-weight: normal;
@@ -180,7 +180,7 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     color: #FFFFFF;
-    background: #d1d0d0;
+    /* background: #d1d0d0; */
     width: 100%;
     font-size: 20px;
     line-height: 26px;
