@@ -3,6 +3,16 @@ body {
     height: 100vh;
     background: #501C65;
     font-family: 'Josefin Slab', serif;
+
+    background: linear-gradient(180deg, #501C65 0%, #9f64b6 35%, #e1d7e6 100%);
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 /* TOP */ 
@@ -27,30 +37,54 @@ li {
     display: inline;
 }
 
+
 a {
     padding: 50px;  /*would be nice to get feedback from M*/
     font-family: 'Josefin Slab', serif;
     font-size: 42px;
     font-weight: 500;
     color: maroon;
+  
+li a {
+
     text-decoration: none;
+}
+
+
+
+.footer-nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 a:hover {
     color: darkblue;
 }
 
+
 /* HEADER */
 
 main {
 
+
+main {
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     column-gap: 20px;
 }
-
+header {
+    max-width: 1440px;
+    width: 100%;
+}
+footer {
+    max-width: 1440px;
+    width: 100%;
+}
 .header-container {
-    min-height: 580px;
+    min-height: 380px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -65,7 +99,11 @@ main {
     z-index: -1;
 }
 
+
 .btn-wrap {
+
+.btn-wrap{
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -93,6 +131,10 @@ p {
     font-size: 26px;
     line-height: 40px;
     color: #000000;
+}
+.txt-detail {
+    font-size: 16px;
+    color: #000000; 
 }
 
 .container {
@@ -125,13 +167,16 @@ p {
     font-style: normal;
     font-weight: normal;
 }
+
 .intro-section {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: url(../images/background-image.png);
 }
+
 .top-section {
     max-width: 100%;
     display: flex;
@@ -164,24 +209,26 @@ p {
     align-items: center;
     flex-wrap: wrap;
     color: #FFFFFF;
-    background: rgba(58, 138, 90, 0.62);
+    /* background: #d1d0d0; */
     width: 100%;
     font-size: 20px;
     line-height: 26px;
+    min-height: 350px
 }
 .card {
-    width: 250px;
+    width: 268px;
     min-height: 200px;
     border-radius: 10px;
     margin: 20px 10px;
     padding: 10px;
     display: flex;
     position: relative;
-    background: #722790;
+    background: #ffffff;
     border-radius: 30px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 1px 20px 1px#888888 inset;
 }
 .card__title {
     font-weight: bold;
@@ -228,4 +275,63 @@ h4 {
 
 button:hover {
     background-color: rgba(10, 54, 29, 0.62)
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #ffffff;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 20px 1px#888888 inset;
+    padding: 10px 0 10px 0;
+    height: 300px;
+    align-content: flex-end;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.divider{
+    background: #D8D8D8;
+    width: 100%;
+    height: 2px;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    background: #ffffff;
+    row-gap: 5px;
+}
+.form-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    row-gap: 10px;
+}
+.input-filed {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    opacity: 0.3;
+    border-bottom: 1px solid #979797;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    text-decoration-color: #FEFFFF;
+}
+.footer-btn {
+    font-size: 16px;
+    line-height: 40px;
+    width:110px;
+}
+.socialmedia-container{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-evenly;
 }
