@@ -2,7 +2,7 @@ body {
     width: 100%;
     background: #501C65;
     background: linear-gradient(180deg, #501C65 0%, #9f64b6 35%, #e1d7e6 100%);
-    font-family: Garamond;
+    font-family: 'Josefin Slab', serif;
     font-style: normal;
     font-weight: normal;
     display: flex;
@@ -12,9 +12,11 @@ body {
     row-gap: 20px;
 }
 .logo {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
+    padding: 15px;
+    padding-bottom: 35px;
 }
 .logo-img {
     max-width: 189px;
@@ -39,7 +41,7 @@ nav {
 }
 li a {
     text-decoration: none;
-    color: #000000;
+    color: maroon;
     font-size: 26px;
     line-height: 40px;
 }
@@ -48,9 +50,10 @@ li a {
     color: #000000;
     font-size: 16px;
     line-height: 20px;
+    color: maroon;
 }
 a:hover {
-    color: blue;
+    color: darkblue;
 }
 main {
     max-width: 1440px;
@@ -93,12 +96,13 @@ h1 {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #000000;
+    color: #360847;
 }
 .container, .main-text {
     font-size: 26px;
     line-height: 40px;
     color: #000000;
+    font-weight: bold;
 }
 .txt-detail {
     font-size: 16px;
@@ -126,7 +130,7 @@ h1 {
     align-items: center;
     justify-content: center;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: whitesmoke;
     border: none;
     font-family: Garamond;
     font-style: normal;
@@ -262,7 +266,7 @@ button:hover {
     align-content: center;
     row-gap: 20px;
 }
-.input-field {
+/* .input-field {
     border-top: none;
     border-right: none;
     border-left: none;
@@ -271,7 +275,7 @@ button:hover {
     box-sizing: border-box;
     background-color:#FFFFFF;
     text-decoration-color: #FEFFFF;
-}
+} */
 .footer-btn {
     font-size: 16px;
     line-height: 40px;
@@ -296,10 +300,8 @@ button:hover {
     padding: 10px 0 12px 20px;
     font-size: 18px;
     border-radius: 6px;
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: normal;
-   /*  margin: 0 auto 20px; */
+    font-family: 'Josefin Slab', serif;
+       /*  margin: 0 auto 20px; */
 }
 .contact-form-container{
     display: flex;
