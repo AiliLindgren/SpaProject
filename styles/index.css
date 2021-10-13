@@ -184,7 +184,7 @@ h1 {
     width: 100%;
     font-size: 20px;
     line-height: 26px;
-    height: 350px;
+    min-height: 350px
 }
 .card {
     width: 268px;
