@@ -1,6 +1,9 @@
 body {
     width: 100%;
+    height: 100vh;
     background: #501C65;
+    font-family: 'Josefin Slab', serif;
+
     background: linear-gradient(180deg, #501C65 0%, #9f64b6 35%, #e1d7e6 100%);
     font-family: 'Josefin Slab', serif;
     font-style: normal;
@@ -11,6 +14,9 @@ body {
     flex-direction: column;
     row-gap: 20px;
 }
+
+/* TOP */ 
+
 .logo {
     width: auto;
     display: flex;
@@ -23,13 +29,15 @@ body {
     width: 100%;
     max-height: 100px;
 }
-nav {
-    background: #E6D3EE;
+
+.nav {
+    width: auto;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    background: #E6D3EE;
+    padding: 25px;
 }
+
 .nav-bar-links {
     max-width: 39.7%;
     width: 100%;
@@ -39,6 +47,18 @@ nav {
     font-style: normal;
     font-weight: normal;
 }
+
+li {
+    display: inline;
+}
+a {
+    padding: 50px;  /*would be nice to get feedback from M*/
+    font-family: 'Josefin Slab', serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: maroon;
+}
+  
 li a {
     text-decoration: none;
     color: maroon;
@@ -52,14 +72,18 @@ li a {
     line-height: 20px;
     color: maroon;
 }
+
 a:hover {
     color: darkblue;
 }
+
+
+/* HEADER */
+
 main {
     max-width: 1440px;
     display: flex;
     flex-direction: column;
-    width: 100%;
     column-gap: 20px;
 }
 header {
@@ -84,12 +108,15 @@ footer {
     position: absolute;
     z-index: -1;
 }
+
 .btn-wrap{
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 320px;
 }
+
 h1 {
     font-size: 66px;
     line-height: 78px;
@@ -98,6 +125,13 @@ h1 {
     text-align: center;
     color: #360847;
 }
+
+p {
+    font-size: 30px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
 .container, .main-text {
     font-size: 26px;
     line-height: 40px;
@@ -132,10 +166,11 @@ h1 {
     letter-spacing: 0.1em;
     color: whitesmoke;
     border: none;
-    font-family: Garamond;
+    font-family: 'Josefin Slab', serif;;
     font-style: normal;
     font-weight: normal;
 }
+
 .intro-section {
     max-width: 100%;
     display: flex;
@@ -144,6 +179,7 @@ h1 {
     flex-wrap: wrap;
     background-image: url(../images/background-image.png);
 }
+
 .top-section {
     max-width: 100%;
     display: flex;
