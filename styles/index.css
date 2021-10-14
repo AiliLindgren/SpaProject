@@ -117,7 +117,6 @@ h1 {
     justify-content: flex-start;
     column-gap: 10px;
 }
-
 .checkbox {
     width: 25px;
 }
@@ -158,12 +157,10 @@ h1 {
     justify-content: space-between;
     margin-top: 20px;
 }
-
 .top-section-container-blocks {
     max-width: 45%;
     box-sizing: border-box;
 }
-
 .section-img {
     max-width: 100%;
     min-height: 10vh; 
@@ -204,8 +201,7 @@ h4 {
     line-height: 28px;
 }
 .bottom-section p {
-    width: 70%;
-    
+    width: 70%;    
 }
 .bottom-section button {
     width: 60%;
@@ -239,7 +235,7 @@ button:hover {
     height: 300px;
     align-content: flex-end;
 }
-.footer-section{
+.footer-section {
     display: flex;
     flex-direction: column;
     width: 33%;
